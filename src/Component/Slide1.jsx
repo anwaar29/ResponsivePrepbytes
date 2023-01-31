@@ -15,7 +15,9 @@ const Slide1 = () => {
         </div>
         <span className='offer'>What We Offer</span>
         <span className='normaltext'>We teach students the strategic approach to solve coding problems for cracking the placement interviews effortlessly.</span>
-        </div></>
+        </div>
+        
+        </>
   )
 }
 

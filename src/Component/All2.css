@@ -594,91 +594,313 @@
       }
 
 
-
-/* ////////////////////////////////// i pad/////////////////////////////// */
-
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
-{
-.contsky{
-   display: none;
-}
 }
 
 
+/* /////////////////////////////////////////tab///////////////////////////// */
 
 
+@media (max-width:1024px) and (min-width:768px){
+   
+    .contsky{
+        height: 100px;
+        width: 65%;
+        background-color: #EEFAFF;
+        border-radius: 20px;
+        position: absolute;
+        padding-left: 20px;
+        left: 28%;
+        bottom: 28px;
+        box-shadow: 0px 0px 2px  grey;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }   
+    .baap{
+        height: 80px;
+        width: 160px;
+        border-right: 2px solid grey;
+        position: relative;
+    }
+    .baap:last-child{
+        border: none;
+    }
+    .simg{
+        height: 50px;
+        width: 43px;
+        position: relative;
+        left: 9px;
+        top: 13px;
+    }
+    .s1{
+        position: absolute;
+        top: 43px;
+        right: 2px;
+        font-size: bold;
+        font-size: 9px;
+       
+    }
+    .s{
+        
+        color: darkblue;
+        position: relative;
+        font-size: 23px;
+         top: 6px;
+        left: 7%;
+    }
 
+    .team{
+        position: relative;
+        top: 90px;
+        left: 45%;
+        font-size: 40px;
 
+        color: blue;
+    }
 
+    .ambox{
+        position: absolute;
+        top:550px;
+        left: 15%;
+        height:200px;
+        width:80%;
+    }
+   
+    .ambox1{
+        
+        height: 100px;
+        width: 300px;
+         background-color:white;
+        border-radius: 10px;
+        position: relative;
+        box-shadow: #00000029 0 0 blur 6px;
+    }
+    #m1{
+        position: relative;
+        right: 19px;
+        height: 100px;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    #m2{
+        position: relative;
+        bottom:1px;
+        right: 121px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        
+    }
+    #m3{
+        position: relative;
+        right: 190px;
+        bottom: -47px;
+        background-size: cover;
+        
+       
+    }
+    .name{
+        position: absolute;
+        left: 106px;
+        color: darkgray;
+        font-size: 20px;
+        font-weight: 500;
+        bottom: 72px;
+    }
+    .co{
+        position: absolute;
+        left: 118px;
+        color: lightgray;
+        font-size: 14px;
+        font-weight: 500;
+        bottom: 57px;
+    }
+    .amazon{
+        position: absolute;
+        bottom: 19px;
+        left: 87px;
+        height: 26px;
+        width: 87px;
+        background-size: cover;
+        
+    }
+    .sam{
+        position: absolute;
+        bottom: 17px;
+        left: 215px;
+        height: 20px;
+        width: 50px;
+    }
+    .teamimg{
+        height: 250px;
+        width: 55%;
+        background-image: url('./Images/Team1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top:685px;
+         left: 23%;
+    }
+    .teamline{
+        background-image: url('./Images/gline.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 15px;
+        width: 60%;
+        position: absolute;
+         top: 935px;
+         left: 19.5%;
+    }
+    /* slider */
+    .beforeslide{
+        height: 400px;
+        width: 100%;
+         position: relative;
+         top: 720px;
+    }
+    .slide1{
+        height: 300px;
+        width: 70%;
+        background-image: url('./Images/Mask\ Group\ 368@2x.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        left: 32%;
 
-
-
-
-
-
+        
+        
+    }
+    .slide2{
+        height: 250px;
+        width: 250px;
+        background-image: url('./Images/r2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+         position: absolute;
+        bottom: 210px;
+         left: 15%;
+    }
+    .slide3{
+        height: 250px;
+        width: 250px;
+        background-image: url('./Images/r1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 216px;
+         left: 14%;
+    }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .conttext{
+        height: 300px;
+        width: 200px;
+        position: relative;
+       bottom: 335px;
+       left: 20%;
+       color: lightgray;
+    }
     
-    
+    .offer{
+        font-size: 24px;
+        color: blue;
+        font-weight: 400;
+        position: relative;
+        bottom: 380px;
+        left: 42%;
+    }
+    .normaltext{
+        color: lightgray;
+        position: relative;
+        bottom: 350px;
+        left: 20px;
+        display: block;
+        text-align: center;
+    }
+    /* // slider 2 */
+    .slideparent{
+        height: 200px;
+        border-radius: 25px;
+        width: 70%;
+        background-color: #FEF4E8;
+        position: relative;
+        top: 800px;
+        left: 15%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .col{
+        width: 85%;
+        height: 40px;
+        border: 2px solid rgb(85, 94, 231);
+        position: relative;
+        left: 8%;
+        top: -62px;
+        border-radius: 10px;
+        background-color:rgba(85, 95, 231, 0.741);
+        opacity: 0.3;
+        transition: all 0.3s ease-out;
+    }
+    .col:hover{
+        position: relative;
+        height: 140px;
+         bottom: -50px;
+         opacity: 0.3;
+       
+    }
 
-    
 
-  }
+
+
+    .imgcont{
+        height: 200px;
+        width: 200px;
+       
+    }
+    
+    .child1{
+        height: 400px;
+        width: 100px;
+        border: 1px solid red;
+    }
+
+    .footer{
+        position: relative;
+        background-color: #D9F5F9;
+        height: 400px;
+         top: 933px;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        box-sizing: border-box;
+        padding-left: 30px;
+        text-align: justify;
+      }
+      .f>li{
+        font-size: 14px;
+      }
+      .last{
+   
+        width: 500px;
+        position: relative;
+        top:800px;
+        width: 90%;
+        left: 5%;
+    
+        display: flex;
+        justify-content: space-around;
+        color: darkgray;
+      }
+      .hr{
+        position: relative;
+        top:800px;
+        width: 90%;
+        left: 3%;
+      }
+  
+}
