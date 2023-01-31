@@ -104,15 +104,16 @@
     left: 70px;
     height: 25px;
     width: 80px;
-    background-size: cover;
+    background-size: 100% 100%;
     
 }
 .sam{
     position: absolute;
     bottom: 40px;
     left: 190px;
-    height: 33px;
-    width: 70px;
+    height: 32px;
+    width: 80px;
+    background-size: 100% 100%;
 }
 .ambox{
     position: absolute;
@@ -304,7 +305,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        
+        padding-right: 10px;
         box-sizing: border-box;
         
        
@@ -380,6 +381,7 @@
     position: relative;
     right: 240px;
     bottom: 85px;
+  
     background-size: cover;
    
 }
@@ -403,8 +405,8 @@
     position: absolute;
     bottom: 40px;
     left: 50px;
-    height: 25px;
-    width: 80px;
+    height: 30px;
+    width: 100px;
     background-size: cover;
     
 }
@@ -412,13 +414,13 @@
     position: absolute;
     bottom: 35px;
     left: 190px;
-    height: 25px;
-    width: 60px;
+    height: 40px;
+    width: 90px;
 }
 .ambox{
     position: absolute;
     top:550px;
-    left: 10%;
+    left: 8%;
     height:250px;
     width:1000px;
     right: 20px;
@@ -562,17 +564,24 @@
 .footer{
         position: relative;
         background-color: #D9F5F9;
-        height: 400px;
+        height: 500px;
          top: 2680px;
         display: flex;
-
+        flex-direction: column;
         font-size: 10px;
         box-sizing: border-box;
         padding-left: 30px;
-        text-align: justify;
+        box-sizing: border-box;
+        padding-right: 100px;
+        align-items: center;
+        justify-content: center;
+      }
+      .f{
+        height: 200px;
       }
       .f>li{
-        font-size: 14px;
+        font-size: 13px;
+        text-align: center;
       }
       .last{
    
@@ -600,7 +609,7 @@
 /* /////////////////////////////////////////tab///////////////////////////// */
 
 
-@media (max-width:1024px) and (min-width:768px){
+@media only screen and (max-width:1024px) and (min-width:768px){
    
     .contsky{
         height: 100px;
@@ -722,17 +731,18 @@
         position: absolute;
         bottom: 19px;
         left: 87px;
-        height: 26px;
-        width: 87px;
-        background-size: cover;
+        height: 25px;
+        width: 105px;
+        background-size: 100% 100%;
         
     }
     .sam{
         position: absolute;
         bottom: 17px;
-        left: 215px;
-        height: 20px;
-        width: 50px;
+        left: 210px;
+        height: 30px;
+        background-size: 100% 100%;
+        width: 75px;
     }
     .teamimg{
         height: 250px;
@@ -801,7 +811,7 @@
         position: relative;
        bottom: 335px;
        left: 20%;
-       color: lightgray;
+       color: darkgray;
     }
     
     .offer{
@@ -824,22 +834,26 @@
     .slideparent{
         height: 200px;
         border-radius: 25px;
-        width: 70%;
+        width: 80%;
         background-color: #FEF4E8;
         position: relative;
         top: 800px;
-        left: 15%;
+        left: 10%;
         display: flex;
         justify-content: space-around;
         align-items: center;
         text-align: center;
     }
+    /* .imgcont{
+        height: 150px;
+        width: 150px;
+    } */
     .col{
-        width: 85%;
+        width: 95%;
         height: 40px;
-        border: 2px solid rgb(85, 94, 231);
+        border: 0.2x solid rgb(85, 94, 231);
         position: relative;
-        left: 8%;
+        left: 3%;
         top: -62px;
         border-radius: 10px;
         background-color:rgba(85, 95, 231, 0.741);
@@ -847,10 +861,11 @@
         transition: all 0.3s ease-out;
     }
     .col:hover{
-        position: relative;
-        height: 140px;
-         bottom: -50px;
-         opacity: 0.3;
+        top: -150px;
+        height: 150px;
+
+          
+       
        
     }
 
@@ -875,11 +890,11 @@
         height: 400px;
          top: 933px;
         display: flex;
-        flex-direction: column;
+       
         font-size: 10px;
         box-sizing: border-box;
         padding-left: 30px;
-        text-align: justify;
+        
       }
       .f>li{
         font-size: 14px;

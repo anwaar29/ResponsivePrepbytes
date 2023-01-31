@@ -13,7 +13,7 @@ const Footer = () => {
    <>
    <div className='footer'>
      <div className='f one'>
-             <li>Follow Us</li><br/>
+             <li><h1>Follow Us</h1></li>
              <li>
              <FontAwesomeIcon icon={faFacebook} size="2x" color='blue'/>&nbsp;&nbsp;
              <FontAwesomeIcon icon={faLinkedin} size="2x" color='darkblue' />&nbsp;&nbsp;
@@ -25,10 +25,10 @@ const Footer = () => {
             <li>-support@PrepBytes.com</li>
             
         
-    </div>
+    </div><br/>
     <div className='f two'>
-    <li>QUICK LINKS
-            </li><br/>
+    <li><h2>QUICK LINKS</h2>
+            </li>
             <li>interview Notes</li>
             <li>Mock Tests</li>
             <li>Placement Program</li>

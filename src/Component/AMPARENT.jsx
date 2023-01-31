@@ -1,12 +1,12 @@
 import React from 'react'
 import img1 from './Images/bgcircle.png'
-import sam from './Images/sam.jpg'
-import amazon from './Images/amazon.jpg'
-import linkedin from './Images/linkedin.jpg'
+import sam from './Images/sam22.png'
+import amazon from './Images/amazon22.png'
+import linkedin from './Images/final22.png'
 import mamta from './Images/mamta.png'
 import aditya from './Images/aditya.png'
 import p1 from './Images/p1.jpg'
-import p2 from './Images/pp.png'
+import p2 from './Images/iit22.png'
 import AM from './AM'
 const AMPARENT = () => {
   return (
