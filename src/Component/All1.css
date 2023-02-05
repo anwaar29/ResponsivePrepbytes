@@ -453,6 +453,7 @@ ul {
       display: flex;
       justify-content: space-between;
       padding:10px;
+  
   }
   .logo{
       background-image: url('./Images/p1.jpg');
@@ -475,7 +476,7 @@ ul {
   height: 400px;
   width: 100%;
   position: relative;
-  top: 40px;
+  top: 65px;
 }
 .bannerparent{
   height: 350px;
